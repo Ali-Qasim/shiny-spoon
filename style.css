@@ -50,3 +50,13 @@ a img {
 p{
     color: black;
 }
+
+.col{
+    justify-content: center;
+}
+
+h3{
+    justify-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
