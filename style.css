@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
+* {
+    color: orangered;
+}
 a img {
     height: 6vh;
     margin-right: 1vw;
 }
 
+.nav-link {
+    color: rgb(0, 0, 0);
+    margin-left: 1vw;
+}
+
+.nav-link.active {
+    background-color: orangered!important;
+    margin-left: 1vw;
+}
+
 .hero {
+    margin-top: -5vh;
     font-size: 80px;
 	font-weight: 700;
 	background-clip: text;
@@ -13,4 +27,26 @@ a img {
 	color: transparent;
 	background-image: url('/img/download.jfif');
 
+}
+
+.banner {
+    margin-top: -10vh;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.btn-primary{
+    background-color: orangered!important;
+    border-style: none;
+}
+
+.btn-outline-secondary{
+    border-color: orangered;
+    color: orangered;
+}
+p{
+    color: black;
 }
