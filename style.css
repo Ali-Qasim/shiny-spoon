@@ -1,1 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+a img {
+    height: 6vh;
+    margin-right: 1vw;
+}
+
+.hero {
+    font-size: 80px;
+	font-weight: 700;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: url('/img/download.jfif');
+
+}
